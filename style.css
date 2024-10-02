@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", system-ui;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+
+.flex {
+    display: flex;
+}
+
+.main_navbar {
+    top: 0%;
+    height: 90px;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-right: 10%;
+    width: 100%;
+    background: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.main_navbar ul {
+    justify-content: center;
+    gap: 43px;
+}
+
+
+.logo {
+    margin-left: 1%;
+}
+
+.logo img {
+    width: 93px;
+    border-radius: 50%;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 21px;
+    font-family: "Lato", system-ui;
+}
+
+
+.text_area {
+    color: white;
+}
+
+.image_area {
+    padding: 3% 5%;
+}
+
+.image_area img {
+    height: 75vh;
+    border-radius: 32%;
+}
+
+.text_area {
+    display: flex;
+    align-items: center;
+}
+
+.hero_section {
+    margin-top: 5%;
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.lato-black {
+    font-family: "Lato", system-ui;
+    font-size: 41px;
+    font-style: normal;
+}
+
+
+.text_area p {
+    margin-top: 3%;
+    font-size: 19px;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+.about_pic1 {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.about_pic2 {
+    width: 30%;
+    height: 70vh;
+    border-radius: 32%;
+    margin: 0 5%;
+}
+
+.about_pic3 {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.about h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(196, 196, 89);
+}
+
+.test_cricket h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(196, 196, 89);
+
+}
+
+.test_cricket_1 {
+    width: 30%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 7% 5%;
+}
+
+.test_best_pic {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.last_test_pic {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 1% 5%;
+}
+
+.odis, .t20s, .ipl {
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    background-color: rgb(196, 196, 89);
+}
+
+.odi_debut_pic {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 5% 5%;
+}
+
+.odi_best_pic {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.odi_best_pic {
+    width: 30%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 1% 5%;
+}
+
+.odi_world_cup {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.odi_champions_trophy {
+    width: 35%;
+    height: 70vh;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.odi_last_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.t20_debut_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 5% 5%;
+}
+
+.t20_wc_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.t20_last_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 5% 5%;
+}
+
+.ipl_debut_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 5% 5%;
+}
+
+.ipl_2010_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.ipl_2011_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.ipl_2018_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 3% 5%;
+}
+
+.ipl_2021_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.ipl_2023_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.ipl_last_pic {
+    width: 35%;
+    height: 75vh;
+    border-radius: 25%;
+    margin: 0 5%;
+}
+
+.quotes_pic img {
+    width: 70%;
+    margin: 0 10%;
+    height: 75vh;
+    border-radius: 32%;
+    padding: 3% 5%;
+}
+
+#check{
+    display: none;
+}
+
+.btn{
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    ul {
+        display: none;
+
+
+        background-color: #fff;
+    } 
+    ul {
+        display:block;
+
+
+        background-color: #fff;
+    } 
+  
+.list{
+        display: none;
+    }
+    .logo img{
+        margin-left: 20%;
+
+    }
+
+    
+    .navbar_link li{
+       text-align: center;
+       margin: 10px 0;
+    }
+
+    .toggle_button{
+        display: block;
+    }
+
+    .main_navbar.active .navbar_link {
+        display: flex;
+    }
+    .text_area{
+       flex-direction: column;
+    }
+    .btn{
+        display:block;
+    }
+    
+} 
+
